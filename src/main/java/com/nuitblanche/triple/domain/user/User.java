@@ -1,5 +1,8 @@
-package com.nuitblanche.triple.domain;
+package com.nuitblanche.triple.domain.user;
 
+import com.nuitblanche.triple.domain.photo.Photo;
+import com.nuitblanche.triple.domain.pointhistory.PointHistory;
+import com.nuitblanche.triple.domain.review.Review;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 

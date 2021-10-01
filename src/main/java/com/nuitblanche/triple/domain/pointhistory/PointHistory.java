@@ -1,5 +1,7 @@
-package com.nuitblanche.triple.domain;
+package com.nuitblanche.triple.domain.pointhistory;
 
+import com.nuitblanche.triple.domain.review.Review;
+import com.nuitblanche.triple.domain.user.User;
 import com.nuitblanche.triple.enums.PointType;
 import lombok.Builder;
 import lombok.NoArgsConstructor;

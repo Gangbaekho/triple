@@ -1,5 +1,6 @@
-package com.nuitblanche.triple.domain;
+package com.nuitblanche.triple.domain.place;
 
+import com.nuitblanche.triple.domain.review.Review;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 
