@@ -4,12 +4,14 @@ import com.nuitblanche.triple.domain.photo.Photo;
 import com.nuitblanche.triple.domain.pointhistory.PointHistory;
 import com.nuitblanche.triple.domain.review.Review;
 import lombok.Builder;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
 @NoArgsConstructor
 @Entity
 public class User {
@@ -17,6 +19,8 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
+    @Column(unique = true)
     private String username;
 
     @OneToMany(mappedBy = "user")

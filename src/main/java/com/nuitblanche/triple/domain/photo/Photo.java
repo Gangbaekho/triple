@@ -3,10 +3,12 @@ package com.nuitblanche.triple.domain.photo;
 import com.nuitblanche.triple.domain.review.Review;
 import com.nuitblanche.triple.domain.user.User;
 import lombok.Builder;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+@Getter
 @NoArgsConstructor
 @Entity
 public class Photo {

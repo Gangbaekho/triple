@@ -4,6 +4,7 @@ import com.nuitblanche.triple.domain.user.User;
 import com.nuitblanche.triple.domain.photo.Photo;
 import com.nuitblanche.triple.domain.place.Place;
 import com.nuitblanche.triple.domain.pointhistory.PointHistory;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+@Getter
 @NoArgsConstructor
 @Entity
 public class Review {
